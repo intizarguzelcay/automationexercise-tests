@@ -69,6 +69,6 @@ Bu proje aşağıdaki senaryoları test etmektedir:
 **Sepet Testi 🛒
   Sepet sayfasındaki ürünlerin doğru şekilde listelendiğini, ürün detaylarının (resim, isim, fiyat, adet vb.) görüntülendiğini ve ödeme adımına geçilebildiğini doğrular.
 
-💬 İletişim
+💬 
 Herhangi bir sorunuz veya öneriniz varsa, bana ulaşabilirsiniz.
 
