@@ -31,17 +31,9 @@ Maven – Dependency management and build tool
 
 IntelliJ IDEA – Development environment
 
----
-
-🚀 Installation and Setup
-Required Software
-Before running the project, make sure the following software is installed on your system:
-
-Java JDK 11
-Maven
-ChromeDriver (or your preferred WebDriver)
 
 ---
+
 
 🔍 Test Scenarios
 This project tests the following scenarios:
