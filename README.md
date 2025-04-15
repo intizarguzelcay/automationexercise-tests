@@ -1,62 +1,66 @@
 # 🚀 **AutomationExercise Web Automation Tests** 🛒
 
-Bu repository, **AutomationExercise** web sitesi için yazılmış web otomasyon testlerini içeren bir projedir. Bu testler, Selenium ve Java kullanılarak yazılmıştır ve AutomationExercise'in çeşitli işlevlerini test etmek amacıyla kullanılmaktadır.
+This project contains web automation tests written for the AutomationExercise website. The tests are developed using Selenium and Java to verify various functionalities of the AutomationExercise platform.
 
 ---
 
-## 📁 Proje Yapısı
+📁 Project Structure
+The project has the following directory structure:
 
-Proje şu dizin yapısına sahiptir:
+automationexercise-tests/
+├── src/main/java/pages/      # Page Object Model classes
+├── src/main/java/utils/      # Utility classes (e.g., DriverManager)
+├── src/test/java/tests/      # Test classes
+├── testng.xml                # TestNG configuration file
+├── pom.xml                   # Maven dependencies
+└── README.md                 # Project documentation
 
-aautomationexercise-tests/
-├── src/main/java/pages/      # Page Object Model dosyaları
-├── src/main/java/utils/      # Yardımcı sınıflar (DriverManager vb.)
-├── src/test/java/tests/      # Test sınıfları
-├── testng.xml               # TestNG konfigürasyonu
-├── pom.xml                  # Maven bağımlılıkları
-└── README.md                # Proje açıklaması
-
-
----
-
-## 🛠 Kullanılan Teknolojiler
-
-- **Java 11** – Programlama dili
-- **Selenium WebDriver** – Web otomasyonu
-- **TestNG** – Test yönetimi
-- **Maven** – Bağımlılık yönetimi ve build
-- **IntelliJ IDEA** – Geliştirme ortamı
 
 ---
 
-## 🚀 Kurulum ve Çalıştırma
 
-### Gerekli Yazılımlar
-Projeyi çalıştırmadan önce aşağıdaki yazılımların sisteminde yüklü olduğundan emin ol:
-- [Java JDK 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
-- [Maven](https://maven.apache.org/download.cgi)
-- [ChromeDriver](https://sites.google.com/chromium.org/driver/) (veya kullanacağın diğer WebDriver)
+🛠 Technologies Used
+
+Java 11 – Programming language
+
+Selenium WebDriver – Web automation
+
+TestNG – Test management
+
+Maven – Dependency management and build tool
+
+IntelliJ IDEA – Development environment
 
 ---
 
-🔍 Test Senaryoları
-Bu proje aşağıdaki senaryoları test etmektedir:
+🚀 Installation and Setup
+Required Software
+Before running the project, make sure the following software is installed on your system:
 
-**Kullanıcı Kayıt Testi 📋
-  Yeni kullanıcıların doğru şekilde kayıt olabildiğini doğrular.
+Java JDK 11
+Maven
+ChromeDriver (or your preferred WebDriver)
 
-**Kullanıcı Giriş Testi 🔐
-  Kullanıcıların doğru bilgileri girerek giriş yapabildiğini test eder.
+---
 
-**Ürün Testi 🛍
-  Ürün arama, ürün detaylarını görüntüleme ve sepete ekleme işlemleri kontrol edilir.
+🔍 Test Scenarios
+This project tests the following scenarios:
 
-**Sepet Testi 🛒
-  Sepet sayfasındaki ürünlerin doğru şekilde listelendiğini, ürün detaylarının (resim, isim, fiyat, adet vb.) görüntülendiğini ve ödeme adımına geçilebildiğini doğrular.
+User Registration Test 📋
+Verifies that new users can register correctly.
+
+User Login Test 🔐
+Tests that users can log in by entering the correct information.
+
+Product Test 🛍
+Verifies product search, viewing product details, and adding items to the cart.
+
+Cart Test 🛒
+Validates that products are listed correctly on the cart page, product details (image, name, price, quantity, etc.) are displayed, and users can proceed to the checkout step.
 
 ---
 
 💬 
-Herhangi bir sorunuz veya öneriniz olursa, bana ulaşabilirsiniz.
+If you have any questions or suggestions, feel free to reach out to me.
 
 ---
