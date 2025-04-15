@@ -33,7 +33,7 @@ public class LoginPageTest {
         loginPage.logout();
         String expectedUrl ="https://www.automationexercise.com/login";
         String currentUrl = driver.getCurrentUrl();
-        Assert.assertEquals(currentUrl,expectedUrl, "Logout sonrası login sayfasına yönlendirilmedi.");
+        Assert.assertEquals(currentUrl,expectedUrl, "After logout, the user was not redirected to the login page..");
     }
 
 
