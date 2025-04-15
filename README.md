@@ -1,4 +1,4 @@
-# 🚀 **AutomationExercise Web Automation Tests** 🛒
+# 🚀🪲 **AutomationExercise Web Automation Tests** 🪲
 
 This project contains web automation tests written for the AutomationExercise website. The tests are developed using Selenium and Java to verify various functionalities of the AutomationExercise platform.
 
